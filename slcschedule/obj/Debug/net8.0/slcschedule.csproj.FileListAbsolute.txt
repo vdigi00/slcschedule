@@ -1,0 +1,14 @@
+C:\Users\vince\Documents\slcschedule\slcschedule\bin\Debug\net8.0\slcschedule.exe
+C:\Users\vince\Documents\slcschedule\slcschedule\bin\Debug\net8.0\slcschedule.deps.json
+C:\Users\vince\Documents\slcschedule\slcschedule\bin\Debug\net8.0\slcschedule.runtimeconfig.json
+C:\Users\vince\Documents\slcschedule\slcschedule\bin\Debug\net8.0\slcschedule.dll
+C:\Users\vince\Documents\slcschedule\slcschedule\bin\Debug\net8.0\slcschedule.pdb
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.AssemblyInfoInputs.cache
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.AssemblyInfo.cs
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.csproj.CoreCompileInputs.cache
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.dll
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\refint\slcschedule.dll
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.pdb
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.genruntimeconfig.cache
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\ref\slcschedule.dll
