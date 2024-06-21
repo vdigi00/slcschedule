@@ -12,3 +12,4 @@ C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\refint\slcsche
 C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.pdb
 C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.genruntimeconfig.cache
 C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\ref\slcschedule.dll
+C:\Users\vince\Documents\slcschedule\slcschedule\obj\Debug\net8.0\slcschedule.sourcelink.json

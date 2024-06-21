@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace slcschedule
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            return;
         }
     }
 }
-
