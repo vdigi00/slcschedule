@@ -9,15 +9,25 @@ namespace slcschedule
     class Employee
     {
         public string name;
+        public Position position;
+        // public List<availPeriod> 
 
         public enum Position{
-            Recreation, Supervisor, RSM
+            Recreation, 
+            Supervisor, 
+            RSM
         }
+        /*
+        public List<> availRange(TimeSpan start, TimeSpan end)
+        {
+            
+        }
+        */
 
-        public Employee(string _name)
+        public Employee(string _name, Position _position)
         {
             name = _name;
+            position = _position;
         }
-
     }
 }

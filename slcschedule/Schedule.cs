@@ -10,9 +10,8 @@ namespace slcschedule
     class Schedule
     {
         public int availCount;
-        public Employee employee;
-
-        /*public Shift(Employee _employee)
+        
+        /*public Shift(Employee _employee, Position _position)
         {
             employee = _employee;
         }
