@@ -12,8 +12,6 @@ namespace slcschedule
         public Position position;
         public List<Tuple<TimeSpan, TimeSpan>> availability;
 
-        //This is a test
-
         public enum Position{
             Recreation, 
             Supervisor, 
@@ -21,7 +19,7 @@ namespace slcschedule
         }
 
         public void AddAvailability(TimeSpan start, TimeSpan end)
-        {
+        {   
             var block = Tuple.Create(start, end);
             availability.Add(block);
         }

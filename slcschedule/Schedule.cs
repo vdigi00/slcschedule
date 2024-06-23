@@ -9,18 +9,13 @@ namespace slcschedule
 {
     class Schedule
     {
-        public int availCount;
-        
-        /*public Shift(Employee _employee, Position _position)
-        {
-            employee = _employee;
-        }
+        //public Dictionary<Shift shift, String key>;
 
-
-        public Schedule(Shift _shift)
+        public enum Location
         {
-            employee = _employee;
+            CAGE,
+            SLC,
+            FH
         }
-        */
     }
 }
