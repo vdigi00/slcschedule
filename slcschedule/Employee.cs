@@ -10,24 +10,25 @@ namespace slcschedule
     {
         public string name;
         public Position position;
-        // public List<availPeriod> 
+        public List<Tuple<TimeSpan, TimeSpan>> availability;
 
         public enum Position{
             Recreation, 
             Supervisor, 
             RSM
         }
-        /*
-        public List<> availRange(TimeSpan start, TimeSpan end)
-        {
-            
-        }
-        */
 
-        public Employee(string _name, Position _position)
+        public void AddAvailability(TimeSpan start, TimeSpan end)
+        {
+            var block = Tuple.Create(start, end);
+            availability.Add(block);
+        }
+
+        public Employee(string _name, Position _position, List<Tuple<TimeSpan, TimeSpan>> _availability)
         {
             name = _name;
             position = _position;
+            availability = new List<Tuple<TimeSpan, TimeSpan>>();
         }
     }
 }

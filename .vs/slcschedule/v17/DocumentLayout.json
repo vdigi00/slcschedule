@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "slcschedule\\Employee.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Employee.cs",
               "RelativeToolTip": "slcschedule\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA+AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T19:22:29.272Z",
               "EditorCaption": ""
@@ -45,7 +49,7 @@
               "RelativeDocumentMoniker": "slcschedule\\Schedule.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Schedule.cs",
               "RelativeToolTip": "slcschedule\\Schedule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T19:03:28.403Z",
               "EditorCaption": ""
@@ -58,14 +62,10 @@
               "RelativeDocumentMoniker": "slcschedule\\Program.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Program.cs",
               "RelativeToolTip": "slcschedule\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T18:15:55.184Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
