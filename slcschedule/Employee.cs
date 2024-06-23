@@ -12,6 +12,8 @@ namespace slcschedule
         public Position position;
         public List<Tuple<TimeSpan, TimeSpan>> availability;
 
+        //This is a test
+
         public enum Position{
             Recreation, 
             Supervisor, 
