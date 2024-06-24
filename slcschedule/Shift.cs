@@ -8,17 +8,20 @@ namespace slcschedule
 {
     class Shift
     {
-        public TimeSpan start;
-        public TimeSpan end;
-        public string location;
-        public int availCount;
-        public Employee employee;
+        private TimeSpan start;
+        private TimeSpan end;
+        private int availCount;
+        private enum Location
+        {
+            CAGE,
+            SLC,
+            FH
+        }
 
-        public Shift(TimeSpan _start, TimeSpan _end, string _location)
+        public Shift(TimeSpan _start, TimeSpan _end)
         {
             start = _start;
             end = _end;
-            location = _location;
             availCount = 0;
         }
     }

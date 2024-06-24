@@ -11,11 +11,20 @@ namespace slcschedule
     {
         //public Dictionary<Shift shift, String key>;
 
-        public enum Location
+        public static void createRSM()
         {
-            CAGE,
-            SLC,
-            FH
+
         }
+
+        public static void createSuper()
+        {
+
+        }
+
+        public static void createRec()
+        {
+
+        }
+
     }
 }

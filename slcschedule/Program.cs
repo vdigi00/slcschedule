@@ -8,35 +8,27 @@ using System.Threading.Tasks;
 
 namespace slcschedule
 {
-
     class Program
     {
-        public static void options()
-        {
-            Console.WriteLine("1. Create/Modify employee");
-            try
-            {
-                Console.WriteLine("Select an option: ");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Please select a vaild option:");
-                options();
-            }
-        }
-
-        public void createEmployee()
-        {
-            Console.WriteLine("Create Employee");
-        }
-
         static void Main(string[] args)
         {
+            Employee John1 = new Employee("John Doe", Employee.Position.Supervisor);
+            John1.AddAvailability(10, 0, 14, 0);
+            John1.AddAvailability(18, 0, 20, 0);
+            Console.WriteLine(John1.PrintEmployee());
+            Console.WriteLine(John1.PrintAvailability());
+            Console.WriteLine("Press any key to exit...");
+
             while (true)
             {
-                Console.WriteLine("Welcome to the SLC Schedule Creator, would would you like to do?");
-                options();
-            }       
+                    // Check if a key is pressed
+                if (Console.KeyAvailable)
+                {
+                    // Read the key to clear it from the buffer
+                    Console.ReadKey(true);
+                    break; // Exit the loop
+                }
+            }
         }
     }
 }
