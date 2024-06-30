@@ -8,7 +8,8 @@ namespace slcschedule
 {
     class Employee
     {
-        private string name;
+        private string firstname;
+        private string lastname;
         private Position position;
         private List<Tuple<TimeSpan, TimeSpan>> availability;
         public enum Position{
@@ -29,7 +30,7 @@ namespace slcschedule
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Employee Info:");
-            sb.AppendLine("Name: " + name + " | Position: " + position.ToString());
+            sb.AppendLine("Name: " + firstname + " | Position: " + position.ToString());
             return sb.ToString();
         }
 
@@ -43,9 +44,10 @@ namespace slcschedule
             return sb.ToString();
         }
 
-        public Employee(string _name, Position _position)
+        public Employee(string _firstname, string _lastname, Position _position)
         {
-            name = _name;
+            firstname = _firstname;
+            lastname = _lastname;
             position = _position;
             availability = new List<Tuple<TimeSpan, TimeSpan>>();
         }
