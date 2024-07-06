@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vince\\Documents\\slcschedule\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26ECA4FB-3939-4925-BD95-DA47267A04ED}|SLCScheduleTest\\SLCScheduleTest.csproj|c:\\users\\vince\\documents\\slcschedule\\slcscheduletest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ECA4FB-3939-4925-BD95-DA47267A04ED}|SLCScheduleTest\\SLCScheduleTest.csproj|solutionrelative:slcscheduletest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|c:\\users\\vince\\documents\\slcschedule\\slcschedule\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|solutionrelative:slcschedule\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|c:\\users\\vince\\documents\\slcschedule\\slcschedule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|solutionrelative:slcschedule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|c:\\users\\vince\\documents\\slcschedule\\slcschedule\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|solutionrelative:slcschedule\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|c:\\users\\vince\\documents\\slcschedule\\slcschedule\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|solutionrelative:slcschedule\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{533ACF0B-7C6A-409C-98EF-5B1AB10FD30A}|slcschedule\\slcschedule.csproj|c:\\users\\vince\\documents\\slcschedule\\slcschedule\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\slcschedule\\SLCScheduleTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SLCScheduleTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\slcschedule\\SLCScheduleTest\\UnitTest1.cs",
+              "RelativeToolTip": "SLCScheduleTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T20:13:42.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Employee.cs",
               "RelativeDocumentMoniker": "slcschedule\\Employee.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Employee.cs",
               "RelativeToolTip": "slcschedule\\Employee.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA5wCgAAAANAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwCgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T19:22:29.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Shift.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Shift.cs",
               "RelativeDocumentMoniker": "slcschedule\\Shift.cs",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Schedule.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Schedule.cs",
               "RelativeDocumentMoniker": "slcschedule\\Schedule.cs",
@@ -73,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Program.cs",
               "RelativeDocumentMoniker": "slcschedule\\Program.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\Program.cs",
               "RelativeToolTip": "slcschedule\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAASAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T18:15:55.184Z",
               "EditorCaption": ""
