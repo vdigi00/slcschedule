@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\slcschedule.csproj",
-      "projectName": "slcschedule",
-      "projectPath": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\slcschedule.csproj",
+      "projectUniqueName": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\SLCSchedule.csproj",
+      "projectName": "SLCSchedule",
+      "projectPath": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\SLCSchedule.csproj",
       "packagesPath": "C:\\Users\\vince\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vince\\Documents\\slcschedule\\slcschedule\\obj\\",
       "projectStyle": "PackageReference",

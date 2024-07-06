@@ -5,9 +5,9 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace slcschedule
+namespace SLCSchedule
 {
-    class Schedule
+    public class Schedule
     {
         //public Dictionary<Shift shift, String key>;
 
