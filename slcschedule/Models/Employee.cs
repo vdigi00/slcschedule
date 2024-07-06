@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SLCSchedule
+namespace SLCSchedule.Models
 {
     public class Employee
     {
@@ -13,9 +13,10 @@ namespace SLCSchedule
         private Position position;
         private List<Tuple<TimeSpan, TimeSpan>> availability;
 
-        public enum Position{
-            Recreation, 
-            Supervisor, 
+        public enum Position
+        {
+            Recreation,
+            Supervisor,
             RSM
         }
 

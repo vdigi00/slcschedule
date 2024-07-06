@@ -1,7 +1,9 @@
+using SLCSchedule;
+
 namespace SLCSchedule;
 
 [TestClass]
-public class EmployeeTests
+public class SLCScheduleTests
 {
     [TestMethod]
     public void TestMethod1()

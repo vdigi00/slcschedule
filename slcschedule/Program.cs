@@ -5,6 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using SLCSchedule.Models;
 
 namespace SLCSchedule
 {
