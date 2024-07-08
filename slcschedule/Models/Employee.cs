@@ -11,7 +11,7 @@ namespace SLCSchedule.Models
         private string firstname;
         private string lastname;
         private Position position;
-        private List<Tuple<TimeSpan, TimeSpan>> availability;
+        private List<TimeRange> availability;
 
         public enum Position
         {
@@ -22,26 +22,24 @@ namespace SLCSchedule.Models
 
         public void AddAvailability(int startHour, int startMin, int endHour, int endMin)
         {
-            TimeSpan start = new TimeSpan(startHour, startMin, 0);
-            TimeSpan end = new TimeSpan(endHour, endMin, 0);
-            var block = Tuple.Create(start, end);
-            availability.Add(block);
+            TimeRange range = new TimeRange(new TimeSpan(startHour, startMin, 0), new TimeSpan(endHour, endMin, 0));
+            availability.Add(range);
         }
 
         public string PrintEmployee()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Employee Info:");
-            sb.AppendLine("Name: " + firstname + " | Position: " + position.ToString());
+            sb.AppendLine("Name: " + firstname + " " + lastname + " - Position: " + position.ToString());
             return sb.ToString();
         }
 
         public string PrintAvailability()
         {
             StringBuilder sb = new StringBuilder();
-            foreach (var tuple in availability)
+            foreach (var range in availability)
             {
-                sb.AppendLine($"Availability Start: {tuple.Item1}, Availability End: {tuple.Item2}");
+                sb.AppendLine($"Availability Start: {range.getStart()}, Availability End: {range.getEnd()}");
             }
             return sb.ToString();
         }
@@ -51,7 +49,7 @@ namespace SLCSchedule.Models
             firstname = _firstname;
             lastname = _lastname;
             position = _position;
-            availability = new List<Tuple<TimeSpan, TimeSpan>>();
+            availability = new List<TimeRange>();
         }
     }
 }

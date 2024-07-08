@@ -8,8 +8,7 @@ namespace SLCSchedule.Models
 {
     class Shift
     {
-        private TimeSpan start;
-        private TimeSpan end;
+        private TimeRange timeRange;
         private int availCount;
         private enum Location
         {
@@ -18,10 +17,9 @@ namespace SLCSchedule.Models
             FH
         }
 
-        public Shift(TimeSpan _start, TimeSpan _end)
+        public Shift(TimeRange _timeRange)
         {
-            start = _start;
-            end = _end;
+            timeRange = _timeRange;
             availCount = 0;
         }
     }

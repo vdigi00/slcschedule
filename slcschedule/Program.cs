@@ -15,7 +15,7 @@ namespace SLCSchedule
         {
             List<Employee> employees = new List<Employee>();
 
-            Employee Vincent1 = new Employee("Vincent", "DiCarlo", Employee.Position.Recreation);
+            Employee Vincent1 = new Employee("Vincent", "DiGiovanni", Employee.Position.Recreation);
             Employee Billy1 = new Employee("Billy", "Joel", Employee.Position.RSM);
             Employee John1 = new Employee("John", "Doe", Employee.Position.Supervisor);
 
