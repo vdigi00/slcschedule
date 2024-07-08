@@ -13,17 +13,32 @@ namespace SLCSchedule.Models
         private Position position;
         private List<TimeRange> availability;
 
+        [Flags]
         public enum Position
         {
-            Recreation,
-            Supervisor,
-            RSM
+            None = 0,
+            Recreation = 1 << 0,
+            Supervisor = 1 << 1,
+            RSM = 1 << 2
+        }
+
+        public Employee(string _firstname, string _lastname, Position _position)
+        {
+            firstname = _firstname;
+            lastname = _lastname;
+            position = _position;
+            availability = new List<TimeRange>();
         }
 
         public void AddAvailability(int startHour, int startMin, int endHour, int endMin)
         {
-            TimeRange range = new TimeRange(new TimeSpan(startHour, startMin, 0), new TimeSpan(endHour, endMin, 0));
+            TimeRange range = new TimeRange(startHour, startMin, endHour, endMin);
             availability.Add(range);
+        }
+
+        public List<TimeRange> GetAvailability()
+        {
+            return availability;
         }
 
         public string PrintEmployee()
@@ -39,17 +54,9 @@ namespace SLCSchedule.Models
             StringBuilder sb = new StringBuilder();
             foreach (var range in availability)
             {
-                sb.AppendLine($"Availability Start: {range.getStart()}, Availability End: {range.getEnd()}");
+                sb.AppendLine($"Availability Start: {range.printStart()}, Availability End: {range.printEnd()}");
             }
             return sb.ToString();
-        }
-
-        public Employee(string _firstname, string _lastname, Position _position)
-        {
-            firstname = _firstname;
-            lastname = _lastname;
-            position = _position;
-            availability = new List<TimeRange>();
         }
     }
 }

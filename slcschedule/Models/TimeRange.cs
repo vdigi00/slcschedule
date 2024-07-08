@@ -3,33 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static SLCSchedule.Models.Employee;
 
 namespace SLCSchedule.Models
 {
-    class TimeRange
+    public class TimeRange
     {
         private TimeSpan Start;
         private TimeSpan End;
 
-        public TimeRange(TimeSpan _start, TimeSpan _end)
+        public TimeRange(int startHour, int startMin, int endHour, int endMin)
         {
-            Start = _start; 
-            End = _end;
+            Start = new TimeSpan(startHour, startMin, 0);
+            End = new TimeSpan(endHour, endMin, 0);
         }
 
-        public String getStart()
+        public TimeSpan getStart()
+        {
+            return Start;
+        }
+
+        public TimeSpan getEnd()
+        {
+            return End;
+        }
+
+        public String printStart()
         {
             return Start.ToString();
         }
-        public String getEnd()
+
+        public String printEnd()
         {
             return End.ToString();
-        }
-
-        public bool Overlaps(TimeRange check)
-        {
-            return Start < check.End && End > check.Start;
         }
     }
 }

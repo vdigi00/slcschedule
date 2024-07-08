@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SLCSchedule.Models
 {
-    class Shift
+    public class Shift
     {
         private TimeRange timeRange;
         private int availCount;
@@ -21,6 +21,28 @@ namespace SLCSchedule.Models
         {
             timeRange = _timeRange;
             availCount = 0;
+        }
+
+        public TimeRange getTimeRange()
+        {
+            return timeRange;
+        }
+
+        public TimeSpan getShiftStart()
+        {
+            return timeRange.getStart();
+        }
+
+        public bool isAvailable(Employee employee)
+        {
+            foreach (var range in employee.GetAvailability())
+            {
+                if(timeRange.getStart() < range.getEnd() && timeRange.getEnd() > range.getStart())
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
