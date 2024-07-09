@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SLCScheduleTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcfbfa82531d00ca5bccd05e53f8f88c5de256f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08a2b53145bb2c3e92e26868123eb9b7a511ea55")]
 [assembly: System.Reflection.AssemblyProductAttribute("SLCScheduleTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SLCScheduleTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

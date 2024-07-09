@@ -27,7 +27,7 @@ public class SLCScheduleTests
     public void isNotAvailableTest1()
     {
         // Arrange
-        Employee test = new Employee("Test", "Two", Employee.Position.Recreation);
+        Employee test = new Employee("Test", "Two", Employee.Position.Supervisor);
         test.AddAvailability(8, 0, 10, 0);
         test.AddAvailability(16, 0, 20, 0);
         Shift shift = new Shift(new TimeRange(12, 0, 14, 0));

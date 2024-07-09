@@ -23,26 +23,23 @@ namespace SLCSchedule.Models
             availCount = 0;
         }
 
-        public TimeRange getTimeRange()
-        {
-            return timeRange;
-        }
-
-        public TimeSpan getShiftStart()
-        {
-            return timeRange.getStart();
-        }
-
+        /*
         public bool isAvailable(Employee employee)
         {
             foreach (var range in employee.GetAvailability())
             {
-                if(timeRange.getStart() < range.getEnd() && timeRange.getEnd() > range.getStart())
+                if (range.getStart() <= timeRange.getStart() && range.getEnd() >= timeRange.getEnd())
                 {
                     return true;
                 }
             }
             return false;
+        }
+        */
+
+        public bool isAvailable(Employee employee)
+        {
+            return employee.GetAvailability().Any(range => range.getStart() <= timeRange.getStart() && range.getEnd() >= timeRange.getEnd());
         }
     }
 }
